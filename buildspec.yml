@@ -15,9 +15,9 @@ phases:
     build:
          commands:
             - dotnet restore
-			- echo $PWD 
+            - echo $PWD 
             - cd core.api 
-			- echo $PWD
+            - echo $PWD
             - dotnet publish -c Release -o out 
             - cd out 
             - zip -r ../publish.zip *
