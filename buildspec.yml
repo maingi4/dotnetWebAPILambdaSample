@@ -16,6 +16,7 @@ phases:
          commands:
             - dotnet restore
             - echo $PWD 
+            - ls -a
             - cd core.api 
             - echo $PWD
             - dotnet publish -c Release -o out 
