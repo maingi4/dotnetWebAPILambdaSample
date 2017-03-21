@@ -16,7 +16,6 @@ phases:
          commands:
             - dotnet restore
             - dotnet publish core.api -c Release -o out
-            - cd out
             - zip -r core.api/publish.zip out/*
 artifacts:
     files:
