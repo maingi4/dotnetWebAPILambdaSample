@@ -17,7 +17,7 @@ phases:
             - dotnet restore
             - dotnet publish core.api -c Release -o out
             - cd out
-            - zip -r ../publish.zip *
+            - zip -r core.api/publish.zip out/*
 artifacts:
     files:
          - core.api/serverless.template
