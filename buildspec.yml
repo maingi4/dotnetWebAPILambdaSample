@@ -14,13 +14,14 @@ phases:
             - aws apigateway get-rest-apis --region us-east-1 --no-paginate
     build:
          commands:
+            - cd "core.api"
             - dotnet restore
-            - echo $PWD 
-            - ls -a
-            - cd core.api 
             - echo $PWD
-            - dotnet publish -c Release -o out 
-            - cd out 
+            - ls -a
+            - cd core.api
+            - echo $PWD
+            - dotnet publish -c Release -o out
+            - cd out
             - zip -r ../publish.zip *
 artifacts:
     files:
