@@ -1,0 +1,38 @@
+﻿[
+  {
+    "name": "Sumit Maingi",
+    "shortName": "sumit",
+    "reknown": "Media Ocean",
+    "bio": "I recently started working in media ocean, I am an architect here."
+  },
+  {
+    "name": "Sneha Gokarn",
+    "shortName": "sneha",
+    "reknown": "Xpanxion",
+    "bio": "I work in Xpanxion located in Aundh, I am an associate leader in technology."
+  },
+  {
+    "name": "Savio Fernandes",
+    "shortName": "savio",
+    "reknown": "General Mills",
+    "bio": "I work in General Mills located in Powai, I am an IT manager here."
+  },
+  {
+    "name": "Sujit Nair",
+    "shortName": "sujit",
+    "reknown": "General Mills",
+    "bio": "I work in General Mills located in Powai, I am an Architect here."
+  },
+  {
+    "name": "Rajesh Sharma",
+    "shortName": "rajesh",
+    "reknown": "Tavisca",
+    "bio": "I work in Tavisca located in Viman Nagar, I am a Sr. Developer here."
+  },
+  {
+    "name": "Divjot Singh",
+    "shortName": "divjot",
+    "reknown": "Tavisca",
+    "bio": "I work in Tavisca located in Viman Nagar, I am a Devop lead here."
+  }
+]
