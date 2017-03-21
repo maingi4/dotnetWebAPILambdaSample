@@ -1,8 +1,17 @@
+version: 0.1
+
 phases:
     install:
          commands:
             - apt-get -y update
             - apt-get -y install zip
+			- apt-get install python3.4
+			- curl -O https://bootstrap.pypa.io/get-pip.py
+			- python3 get-pip.py --user
+			- pip install awscli --upgrade --user
+    pre_build:
+	     coomands:
+		    - aws-cli list-functions --no-paginate
     build:
          commands:
             - dotnet restore 
