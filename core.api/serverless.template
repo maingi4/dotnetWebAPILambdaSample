@@ -10,7 +10,7 @@
       "Properties": {
         "Handler": "core.api::core.api.LambdaEntryPoint::FunctionHandlerAsync",
         "Runtime": "dotnetcore1.0",
-        "CodeUri": "",
+        "CodeUri": "publish.zip",
         "Description": "Default function",
         "MemorySize": 256,
         "Timeout": 30,
