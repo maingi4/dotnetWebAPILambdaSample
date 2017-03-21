@@ -11,7 +11,7 @@ phases:
             - pip install awscli
     pre_build:
          commands:
-            - aws-cli list-functions --no-paginate
+            - aws list-functions --no-paginate
     build:
          commands:
             - dotnet restore 
