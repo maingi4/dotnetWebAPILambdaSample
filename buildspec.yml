@@ -1,16 +1,16 @@
 phases:
-	install:
-		commands:
-			- apt-get -y update
-			- apt-get -y install zip
-	build:
-		commands:
-			- dotnet restore 
-			- cd core.api 
-			- dotnet publish -c Release -o out 
-			- cd out 
-			- zip -r ../publish.zip *
+    install:
+         commands:
+            - apt-get -y update
+            - apt-get -y install zip
+    build:
+         commands:
+            - dotnet restore 
+            - cd core.api 
+            - dotnet publish -c Release -o out 
+            - cd out 
+            - zip -r ../publish.zip *
 artifacts:
-	files:
-		- core.api/serverless.template
-		- core.api/publish.zip
+    files:
+         - core.api/serverless.template
+         - core.api/publish.zip
